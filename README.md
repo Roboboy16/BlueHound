@@ -25,4 +25,7 @@ docker build -t bluehound-docker .
 Before running the import tool you need to activate python venv with `source env/bin/activate`
 
 ## KNOWN ISSUES
-1) Tried running installed tool for importing as is, but that didn't work for me, so I am suggesting running it as `python3 __init__.py -du USER -dp PASSWORD FILES`.
+1) Tried running installed tool for importing as is, but that didn't work for me, so I am suggesting running it as
+```
+python3 __init__.py -du USER -dp PASSWORD FILES
+```
